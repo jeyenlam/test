@@ -1,7 +1,7 @@
 cellIdPreamble: ""
 cells:
-  "12":
+  element1:
     fillColor:
-      fixed: "red"
+      fixed: "#ff0000"
     strokeColor:
-      fixed: "red"
+      fixed: "#ff0000"

@@ -1,6 +1,6 @@
 cellIdPreamble: ""
 cells:
-  12:
+  "12":
     fillColor:
       fixed: "red"
     strokeColor:

@@ -1,3 +1,4 @@
+cellIdPreamble: "cell-"
 cells:
   element1:
     fillColor:

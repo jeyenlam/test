@@ -1,4 +1,6 @@
 cells:
   element1:
-    fillColor: "red"
-    strokeColor: "red"
+    fillColor:
+      fixed: "red"
+    strokeColor:
+      fixed: "red"

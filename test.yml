@@ -1,7 +1,4 @@
-cellIdPreamble: ""
 cells:
   element1:
-    fillColor:
-      fixed: "#ff0000"
-    strokeColor:
-      fixed: "#ff0000"
+    fillColor: "red"
+    strokeColor: "red"

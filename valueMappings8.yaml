@@ -4,7 +4,7 @@ cells:
     dataRef: "userprofile-running-replicas"
     label:
       separator: "replace"
-    strokeColor:
+    fillColor:
       thresholds:
         - {color: "green", level: 1}
         - {color: "red", level: 0}

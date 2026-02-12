@@ -10,7 +10,7 @@ cells:
       - { level: 0, color: "red" }
       - { level: 1, color: "green" }
   yodZyb2sUARCVFW3rngg-15:
-    dataRef: "inbound-adapters-status"
+    dataRef: "outbound-adapters-running-replicas"
     label:
       separator: "replace"
     fillColor:

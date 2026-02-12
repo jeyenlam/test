@@ -1,0 +1,44 @@
+cellIdPreamble: "cell-"
+cells:
+# STATUS
+  userprofile-status:
+    dataRef: "userprofile-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  outbound-adapters-status:
+    dataRef: "outbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-adapters-status:
+    dataRef: "inbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-processors-status:
+    dataRef: "inbound-processors-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+# REPLICAS
+  userprofile-running-replicas:
+    dataRef: "userprofile-running-replicass"
+    label:
+      separator: "replace"
+  userprofile-desired-replicas:
+    dataRef: "userprofile-disired-replicass"
+    label:
+      separator: "replace"
+  outbound-adapters-running-replicas:
+    dataRef: "outbound-adapters-running-replicas"
+    label:
+      separator: "replace"
+  outbound-adapters-desired-replicas:
+    dataRef: "outbound-adapters-desired-replicas"
+    label:
+      separator: "replace"

@@ -3,8 +3,8 @@ cells:
   yodZyb2sUARCVFW3rngg-44:
     dataRef: "userprofile-running-replicas"
     label:
-      separator: "replace"
-      format: "<b>User Profile</b><br/>${__value.text} / ${__value.text}"
+      # separator: "replace"
+      # format: "<b>User Profile</b><br/>${__value.text} / ${__value.text}"
     strokeColor:
       thresholds:
         - {color: "green", level: 0}

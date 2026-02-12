@@ -5,7 +5,6 @@ cells:
     label:
       separator: "replace"
     fillColor:
-      thresholds:
     thresholds:
       - { level: 0, color: "red" }
       - { level: 1, color: "green" }
@@ -14,16 +13,14 @@ cells:
     label:
       separator: "replace"
     fillColor:
-      thresholds:
     thresholds:
       - { level: 0, color: "red" }
       - { level: 1, color: "green" }
-    outbound-adapters-desired-replicas:
-      dataRef: "outbound-adapters-desired-replicas"
-      label:
-        separator: "replace"
-      fillColor:
-        thresholds:
-      thresholds:
-        - { level: 0, color: "red" }
-        - { level: 1, color: "green" }
+  outbound-adapters-desired-replicas:
+    dataRef: "outbound-adapters-desired-replicas"
+    label:
+      separator: "replace"
+    fillColor:
+    thresholds:
+      - { level: 0, color: "red" }
+      - { level: 1, color: "green" }

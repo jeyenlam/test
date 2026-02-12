@@ -2,6 +2,8 @@ cellIdPreamble: "cell-"
 cells:
   yodZyb2sUARCVFW3rngg-44:
     dataRef: "userprofile-running-replicas"
+    label:
+      separator: "replace"
     strokeColor:
       thresholds:
         - {color: "green", level: 0}

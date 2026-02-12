@@ -1,0 +1,172 @@
+cellIdPreamble: "cell-"
+cells:
+# STATUS
+  userprofile-status:
+    dataRef: "userprofile-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  outbound-adapters-status:
+    dataRef: "outbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-adapters-status:
+    dataRef: "inbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-processors-status:
+    dataRef: "inbound-processors-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  comparison-portal-status:
+    dataRef: "comparison-portal-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  testportal-status:
+    dataRef: "testportal-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  datahub-status:
+    dataRef: "datahub-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  masterdata-status:
+    dataRef: "masterdata-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  identity-provider-status:
+    dataRef: "identity-provider-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  permission-manager-status:
+    dataRef: "permission-manager-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  querystream-dbmanager-status:
+    dataRef: "querystream-dbmanager-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  querystream-status:
+    dataRef: "querystream-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+# REPLICAS
+  userprofile-running-replicas:
+    dataRef: "userprofile-running-replicas"
+    label:
+      separator: "replace"
+  userprofile-desired-replicas:
+    dataRef: "userprofile-desired-replicas"
+    label:
+      separator: "replace"
+  outbound-adapters-running-replicas:
+    dataRef: "outbound-adapters-running-replicas"
+    label:
+      separator: "replace"
+  outbound-adapters-desired-replicas:
+    dataRef: "outbound-adapters-desired-replicas"
+    label:
+      separator: "replace"
+  inbound-adapters-running-replicas:
+    dataRef: "inbound-adapters-running-replicas"
+    label:
+      separator: "replace"
+  inbound-adapters-desired-replicas:
+    dataRef: "inbound-adapters-desired-replicas"
+    label:
+      separator: "replace"
+  inbound-processors-running-replicas:
+    dataRef: "inbound-processors-running-replicas"
+    label:
+      separator: "replace"
+  inbound-processors-desired-replicas:
+    dataRef: "inbound-processors-desired-replicas"
+    label:
+      separator: "replace"
+  comparison-portal-running-replicas:
+    dataRef: "comparison-portal-running-replicas"
+    label:
+      separator: "replace"
+  comparison-portal-desired-replicas:
+    dataRef: "comparison-portal-desired-replicas"
+    label:
+      separator: "replace"
+  testportal-running-replicas:
+    dataRef: "testportal-running-replicas"
+    label:
+      separator: "replace"
+  testportal-desired-replicas:
+    dataRef: "testportal-desired-replicas"
+    label:
+      separator: "replace"
+  datahub-running-replicas:
+    dataRef: "datahub-running-replicas"
+    label:
+      separator: "replace"
+  datahub-desired-replicas:
+    dataRef: "datahub-desired-replicas"
+    label:
+      separator: "replace"
+  masterdata-running-replicas:
+    dataRef: "masterdata-running-replicas"
+    label:
+      separator: "replace"
+  masterdata-desired-replicas:
+    dataRef: "masterdata-desired-replicas"
+    label:
+      separator: "replace"
+  identity-provider-running-replicas:
+    dataRef: "identity-provider-running-replicas"
+    label:
+      separator: "replace"
+  identity-provider-desired-replicas:
+    dataRef: "identity-provider-desired-replicas"
+    label:
+      separator: "replace"
+  permission-manager-running-replicas:
+    dataRef: "permission-manager-running-replicas"
+    label:
+      separator: "replace"
+  permission-manager-desired-replicas:
+    dataRef: "permission-manager-desired-replicas"
+    label:
+      separator: "replace"
+  querystream-dbmanager-running-replicas:
+    dataRef: "querystream-dbmanager-running-replicas"
+    label:
+      separator: "replace"
+  querystream-dbmanager-desired-replicas:
+    dataRef: "querystream-dbmanager-desired-replicas"
+    label:
+      separator: "replace"
+  querystream-running-replicas:
+    dataRef: "querystream-running-replicas"
+    label:
+      separator: "replace"
+  querystream-desired-replicas:
+    dataRef: "querystream-desired-replicas"
+    label:
+      separator: "replace"

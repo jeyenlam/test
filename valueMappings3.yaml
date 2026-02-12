@@ -4,6 +4,7 @@ cells:
     dataRef: "userprofile-running-replicas"
     label:
       separator: "replace"
+      format: "${__value.text} / ${__value.text}"
     strokeColor:
       thresholds:
         - {color: "green", level: 0}

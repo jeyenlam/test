@@ -1,0 +1,20 @@
+cellIdPreamble: "cell-"
+cells:
+  yodZyb2sUARCVFW3rngg-44:
+    dataRef: "userprofile-running-replicas"
+    label:
+      separator: "replace"
+    fillColor:
+      thresholds:
+    thresholds:
+      - { level: 0, color: "red" }
+      - { level: 1, color: "green" }
+  yodZyb2sUARCVFW3rngg-15:
+    dataRef: "inbound-adapters-status"
+    label:
+      separator: "replace"
+    fillColor:
+      thresholds:
+    thresholds:
+      - { level: 0, color: "red" }
+      - { level: 1, color: "green" }

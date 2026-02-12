@@ -31,7 +31,7 @@ cells:
     label:
       separator: "replace"
   userprofile-desired-replicas:
-    dataRef: "userprofile-disired-replicas"
+    dataRef: "userprofile-desired-replicas"
     label:
       separator: "replace"
   outbound-adapters-running-replicas:
@@ -48,5 +48,13 @@ cells:
       separator: "replace"
   inbound-adapters-desired-replicas:
     dataRef: "inbound-adapters-desired-replicas"
+    label:
+      separator: "replace"
+  inbound-processors-running-replicas:
+    dataRef: "inbound-processors-running-replicas"
+    label:
+      separator: "replace"
+  inbound-processors-desired-replicas:
+    dataRef: "inbound-processors-desired-replicas"
     label:
       separator: "replace"

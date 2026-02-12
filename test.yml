@@ -1,6 +1,6 @@
 cellIdPreamble: "cell-"
 cells:
-  element1:
+  "200":
     fillColor:
       fixed: "#FF0000"
     strokeColor:

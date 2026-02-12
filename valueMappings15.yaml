@@ -27,11 +27,11 @@ cells:
         - { level: 1, color: "green" }
 # REPLICAS
   userprofile-running-replicas:
-    dataRef: "userprofile-running-replicass"
+    dataRef: "userprofile-running-replicas"
     label:
       separator: "replace"
   userprofile-desired-replicas:
-    dataRef: "userprofile-disired-replicass"
+    dataRef: "userprofile-disired-replicas"
     label:
       separator: "replace"
   outbound-adapters-running-replicas:
@@ -40,5 +40,13 @@ cells:
       separator: "replace"
   outbound-adapters-desired-replicas:
     dataRef: "outbound-adapters-desired-replicas"
+    label:
+      separator: "replace"
+  inbound-adapters-running-replicas:
+    dataRef: "inbound-adapters-running-replicas"
+    label:
+      separator: "replace"
+  inbound-adapters-desired-replicas:
+    dataRef: "inbound-adapters-desired-replicas"
     label:
       separator: "replace"

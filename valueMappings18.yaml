@@ -339,3 +339,19 @@ cells:
       dataRef: "inbound-processors-rejected"
       label:
         separator: "replace"  
+  inbound-processor-lag-delta:
+      dataRef: "inbound-processor-lag-delta"
+      label:
+        separator: "replace"  
+  aodb-pipeline-lag-delta:
+      dataRef: "aodb-pipeline-lag-delta"
+      label:
+        separator: "replace" 
+  querystream-lag-delta:
+      dataRef: "querystream-lag-delta"
+      label:
+        separator: "replace" 
+  aodb-recalculation-priority-lag:
+      dataRef: "aodb-recalculation-priority-lag"
+      label:
+        separator: "replace" 

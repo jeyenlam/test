@@ -73,6 +73,30 @@ cells:
       thresholds:
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
+  aodb-pipeline-ui-status:
+    dataRef: "aodb-pipeline-ui-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-pipeline-priority-status:
+    dataRef: "aodb-pipeline-priority-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-pipeline-default-status:
+    dataRef: "aodb-pipeline-default-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-pipeline-matching-status:
+    dataRef: "aodb-pipeline-matching-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
 # REPLICAS
   userprofile-running-replicas:
     dataRef: "userprofile-running-replicas"
@@ -170,3 +194,148 @@ cells:
     dataRef: "querystream-desired-replicas"
     label:
       separator: "replace"
+  aodb-pipeline-ui-running-replicas:
+    dataRef: "aodb-pipeline-ui-running-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-ui-desired-replicas:
+    dataRef: "aodb-pipeline-ui-desired-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-priority-running-replicas:
+    dataRef: "aodb-pipeline-priority-running-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-priority-desired-replicas:
+    dataRef: "aodb-pipeline-priority-desired-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-default-running-replicas:
+    dataRef: "aodb-pipeline-default-running-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-default-desired-replicas:
+    dataRef: "aodb-pipeline-default-desired-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-matching-running-replicas:
+    dataRef: "aodb-pipeline-matching-running-replicas"
+    label:
+      separator: "replace"
+  aodb-pipeline-matching-desired-replicas:
+    dataRef: "aodb-pipeline-matching-desired-replicas"
+    label:
+      separator: "replace"
+# LAG
+  aodb-outbox-lag-default:
+    dataRef: "aodb-outbox-lag"
+    label:
+      separator: "replace"
+  aodb-outbox-lag-ui:
+    dataRef: "aodb-outbox-lag"
+    label:
+      separator: "replace"
+  aodb-outbox-lag-priority:
+    dataRef: "aodb-outbox-lag"
+    label:
+      separator: "replace"
+  aodb-outbox-lag-api:
+    dataRef: "aodb-outbox-lag"
+    label:
+      separator: "replace"
+  aodb-outbox-lag-pipeline:
+    dataRef: "aodb-outbox-lag"
+    label:
+      separator: "replace"
+  aodb-pipeline-ui-lag:
+    dataRef: "aodb-pipeline-ui-lag"
+    label:
+      separator: "replace"
+  aodb-pipeline-recalculation-ui-lag:
+    dataRef: "aodb-pipeline-recalculation-ui-lag"
+    label:
+      separator: "replace"
+  aodb-pipeline-priority-lag:
+    dataRef: "aodb-pipeline-priority-lag"
+    label:
+      separator: "replace"
+  aodb-pipeline-priority-lag-delta:
+    dataRef: "aodb-pipeline-priority-lag-delta"
+    label:
+      separator: "replace"
+  aodb-pipeline-default-lag:
+    dataRef: "aodb-pipeline-default-lag"
+    label:
+      separator: "replace"
+  aodb-pipeline-default-lag-delta:
+    dataRef: "aodb-pipeline-default-lag-delta"
+    label:
+      separator: "replace"
+  aodb-pipeline-ui-lag-delta:
+    dataRef: "aodb-pipeline-ui-lag-delta"
+    label:
+      separator: "replace"  
+  aodb-pipeline-recalculation-ui-lag-delta:
+    dataRef: "aodb-pipeline-recalculation-ui-lag-delta"
+    label:
+      separator: "replace"
+  aodb-recalculation-default-lag-delta:
+    dataRef: "aodb-recalculation-default-lag-delta"
+    label:
+      separator: "replace"  
+  aodb-datahub-lag:
+    dataRef: "aodb-datahub-lag"
+    label:
+      separator: "replace"  
+  aodb-datahub-lag-delta:
+    dataRef: "aodb-datahub-lag-delta"
+    label:
+      separator: "replace"  
+  masterdata-dbmanager-lag-delta:
+      dataRef: "masterdata-dbmanager-lag-delta"
+      label:
+        separator: "replace"  
+  inbound-processors-rejected-lag-delta:
+      dataRef: "inbound-processors-rejected-lag-delta"
+      label:
+        separator: "replace"  
+  inbound-adapters-dbmanager-lag-delta:
+      dataRef: "inbound-adapters-dbmanager-lag-delta"
+      label:
+        separator: "replace"  
+  masterdata-dbmanager-lag:
+      dataRef: "masterdata-dbmanager-lag"
+      label:
+        separator: "replace"  
+  inbound-adapters-dbmanager-lag:
+      dataRef: "inbound-adapters-dbmanager-lag"
+      label:
+        separator: "replace"  
+  aodb-recalculation-default-lag:
+      dataRef: "aodb-recalculation-default-lag"
+      label:
+        separator: "replace"  
+  querystream-dbmanager-lag:
+      dataRef: "querystream-dbmanager-lag"
+      label:
+        separator: "replace"  
+  aodb-pipeline-lag:
+      dataRef: "aodb-pipeline-lag"
+      label:
+        separator: "replace"  
+  inbound-processor-lag:
+      dataRef: "inbound-processor-lag"
+      label:
+        separator: "replace"  
+  aodb-outbound-lag:
+      dataRef: "aodb-outbound-lag"
+      label:
+        separator: "replace"  
+  querystream-lag:
+      dataRef: "querystream-lag"
+      label:
+        separator: "replace"  
+  inbound-processors-rejected:
+      dataRef: "inbound-processors-rejected"
+      label:
+        separator: "replace"  

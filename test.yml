@@ -1,7 +1,0 @@
-cellIdPreamble: "cell-"
-cells:
-  "200":
-    fillColor:
-      fixed: "#FF0000"
-    strokeColor:
-      fixed: "#FF0000"

@@ -524,8 +524,8 @@ cells:
   idp-error-rate:
     dataRef: "idp-error-rate"
     label:
-    separator: "replace"
-  permissionmanager-error-rate1:
+      separator: "replace"
+  permissionmanager-error-rate:
     dataRef: "permissionmanager-error-rate"
     label:
       separator: "replace"

@@ -469,6 +469,22 @@ cells:
     label:
     separator: "replace"
 # CONSUMPTION
+  querystream-consumption:
+      dataRef: "querystream-consumption"
+      label:
+        separator: "replace"
+  aodb-outbound-consumption:
+      dataRef: "aodb-outbound-consumption"
+      label:
+        separator: "replace"
+  aodb-datahub-consumption:
+      dataRef: "aodb-datahub-consumption"
+      label:
+        separator: "replace"
+  inbound-processor-consumption:
+      dataRef: "inbound-processor-consumption"
+      label:
+        separator: "replace"
   aodb-pipeline-ui-consumption:
       dataRef: "aodb-pipeline-ui-consumption"
       label:
@@ -479,22 +495,6 @@ cells:
         separator: "replace"
   aodb-pipeline-priority-consumption:
       dataRef: "aodb-pipeline-priority-consumption"
-      label:
-        separator: "replace"
-  inbound-processor-consumption:
-      dataRef: "inbound-processor-consumption"
-      label:
-        separator: "replace"
-  querystream-consumption:
-      dataRef: "querystream-consumption"
-      label:
-        separator: "replace"
-  aodb-datahub-consumption:
-      dataRef: "aodb-datahub-consumption"
-      label:
-        separator: "replace"
-  aodb-outbound-consumption:
-      dataRef: "aodb-outbound-consumption"
       label:
         separator: "replace"
   inbound-processors-rejected-consumption:
@@ -554,6 +554,9 @@ cells:
     dataRef: "querystream-req-sec"
     label:
       separator: "replace"
+  idp-req-sec:
+  masterdata-req-sec:
+
 
 
 

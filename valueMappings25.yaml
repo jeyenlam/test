@@ -555,7 +555,13 @@ cells:
     label:
       separator: "replace"
   idp-req-sec:
+    dataRef: "idp-req-sec"
+    label:
+      separator: "replace"
   masterdata-req-sec:
+    dataRef: "masterdata-req-sec"
+    label:
+      separator: "replace"
 
 
 

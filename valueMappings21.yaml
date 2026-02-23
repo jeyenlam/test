@@ -419,3 +419,40 @@ cells:
       dataRef: "average-response-time"
       label:
         separator: "replace"
+# ERROR RATE
+  datahub-error-rate:
+    dataRef: "datahub-error-rate"
+    label:
+      separator: "replace"
+  idp-error-rate:
+    dataRef: "idp-error-rate"
+    label:
+    separator: "replace"
+  permissionmanager-error-rate:
+    dataRef: "permissionmanager-error-rate"
+    label:
+    separator: "replace"
+  masterdata-error-rate:
+    dataRef: "masterdata-error-rate"
+    label:
+    separator: "replace"
+  userprofile-error-rate:
+    dataRef: "userprofile-error-rate"
+    label:
+    separator: "replace"
+  comparisonportal-error-rate:
+    dataRef: "comparisonportal-error-rate"
+    label:
+    separator: "replace"
+  testportal-error-rate:
+    dataRef: "testportal-error-rate"
+    label:
+    separator: "replace"
+  querystream-error-rate:
+    dataRef: "querystream-error-rate"
+    label:
+    separator: "replace"
+  notification-error-rate:
+    dataRef: "notification-error-rate"
+    label:
+    separator: "replace"

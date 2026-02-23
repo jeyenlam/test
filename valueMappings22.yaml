@@ -97,7 +97,51 @@ cells:
       thresholds:
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
+  aodb-api-status:
+    dataRef: "aodb-api-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-pipeline-status:
+    dataRef: "aodb-pipeline-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-outbox-status-ui:
+    dataRef: "aodb-outbox-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-outbox-status-priority:
+    dataRef: "aodb-outbox-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-outbox-status-pipeline-matching:
+    dataRef: "aodb-outbox-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  aodb-outbox-status-api:
+    dataRef: "aodb-outbox-status"
+    fillColor:
+      thresholds:
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
 # REPLICAS
+  aodb-pipeline-running-replicas:
+    dataRef: "aodb-pipeline-running-replicas"
+    label:
+    separator: "replace"
+  aodb-pipeline-desired-replicas:
+    dataRef: "aodb-pipeline-desired-replicas"
+    label:
+    separator: "replace"
   userprofile-running-replicas:
     dataRef: "userprofile-running-replicas"
     label:
@@ -235,6 +279,18 @@ cells:
     label:
       separator: "replace"
 # LAG
+  aodb-outbound-lag-delta:
+    dataRef: "aodb-outbound-lag-delta"
+    label:
+    separator: "replace"
+  aodb-recalculation-priority-lag-delta:
+    dataRef: "aodb-recalculation-priority-lag-delta"
+    label:
+    separator: "replace"
+  querystream-dbmanager-lag-delta:
+    dataRef: "querystream-dbmanager-lag-delta"
+    label:
+    separator: "replace"
   aodb-outbox-lag-default:
     dataRef: "aodb-outbox-lag"
     label:
@@ -363,6 +419,56 @@ cells:
       dataRef: "aodb-recalculation-priority-lag"
       label:
         separator: "replace"
+  sessions:
+    dataRef: "sessions"
+    label:
+    separator: "replace"
+  average-response-time:
+      dataRef: "average-response-time"
+      label:
+        separator: "replace"
+# ERROR RATE
+  aodb-error-rate:
+    dataRef: "aodb-error-rate"
+    label:
+      separator: "replace"
+  datahub-error-rate:
+    dataRef: "datahub-error-rate"
+    label:
+      separator: "replace"
+  idp-error-rate:
+    dataRef: "idp-error-rate"
+    label:
+    separator: "replace"
+  permissionmanager-error-rate:
+    dataRef: "permissionmanager-error-rate"
+    label:
+    separator: "replace"
+  masterdata-error-rate:
+    dataRef: "masterdata-error-rate"
+    label:
+    separator: "replace"
+  userprofile-error-rate:
+    dataRef: "userprofile-error-rate"
+    label:
+    separator: "replace"
+  comparisonportal-error-rate:
+    dataRef: "comparisonportal-error-rate"
+    label:
+    separator: "replace"
+  testportal-error-rate:
+    dataRef: "testportal-error-rate"
+    label:
+    separator: "replace"
+  querystream-error-rate:
+    dataRef: "querystream-error-rate"
+    label:
+    separator: "replace"
+  notification-error-rate:
+    dataRef: "notification-error-rate"
+    label:
+    separator: "replace"
+# CONSUMPTION
   aodb-pipeline-ui-consumption:
       dataRef: "aodb-pipeline-ui-consumption"
       label:
@@ -415,44 +521,40 @@ cells:
       dataRef: "aodb-pipeline-default-consumption"
       label:
         separator: "replace"
-  average-response-time:
-      dataRef: "average-response-time"
-      label:
-        separator: "replace"
-# ERROR RATE
-  datahub-error-rate:
-    dataRef: "datahub-error-rate"
+# REQ-SEC
+  aodb-req-sec:
+    dataRef: "aodb-req-sec"
     label:
       separator: "replace"
-  idp-error-rate:
-    dataRef: "idp-error-rate"
+  datahub-req-sec:
+    dataRef: "datahub-req-sec"
     label:
-    separator: "replace"
-  permissionmanager-error-rate:
-    dataRef: "permissionmanager-error-rate"
+      separator: "replace"
+  testportal-req-sec:
+    dataRef: "testportal-req-sec"
     label:
-    separator: "replace"
-  masterdata-error-rate:
-    dataRef: "masterdata-error-rate"
+      separator: "replace"
+  comparison-portal-req-sec:
+    dataRef: "comparison-portal-req-sec"
     label:
-    separator: "replace"
-  userprofile-error-rate:
-    dataRef: "userprofile-error-rate"
+      separator: "replace"
+  userprofile-req-sec:
+    dataRef: "userprofile-req-sec"
     label:
-    separator: "replace"
-  comparisonportal-error-rate:
-    dataRef: "comparisonportal-error-rate"
+      separator: "replace"
+  aodb-masterdata-req-sec:
+    dataRef: "aodb-masterdata-req-sec"
     label:
-    separator: "replace"
-  testportal-error-rate:
-    dataRef: "testportal-error-rate"
+      separator: "replace"
+  permission-manager-req-sec:
+    dataRef: "permission-manager-req-sec"
     label:
-    separator: "replace"
-  querystream-error-rate:
-    dataRef: "querystream-error-rate"
+      separator: "replace"
+  querystream-req-sec:
+    dataRef: "querystream-req-sec"
     label:
-    separator: "replace"
-  notification-error-rate:
-    dataRef: "notification-error-rate"
-    label:
-    separator: "replace"
+      separator: "replace"
+
+
+
+

@@ -15,6 +15,27 @@ cells:
         - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
+  outbound-adapters-status2:
+    dataRef: "outbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  outbound-adapters-status3:
+    dataRef: "outbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  outbound-adapters-status4:
+    dataRef: "outbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
   inbound-adapters-status:
     dataRef: "inbound-adapters-status"
     fillColor:
@@ -22,7 +43,49 @@ cells:
         - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
+  inbound-adapters-status2:
+    dataRef: "inbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-adapters-status3:
+    dataRef: "inbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-adapters-status4:
+    dataRef: "inbound-adapters-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
   inbound-processors-status:
+    dataRef: "inbound-processors-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-processors-status2:
+    dataRef: "inbound-processors-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-processors-status3:
+    dataRef: "inbound-processors-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
+  inbound-processors-status4:
     dataRef: "inbound-processors-status"
     fillColor:
       thresholds:
@@ -586,6 +649,14 @@ cells:
       separator: "replace"
   masterdata-req-sec:
     dataRef: "masterdata-req-sec"
+    label:
+      separator: "replace"
+  aodb-pipeline-msg-sec:
+    dataRef: "aodb-pipeline-msg-sec"
+    label:
+      separator: "replace"
+  environment-request-per-sec:
+    dataRef: "environment-request-per-sec"
     label:
       separator: "replace"
 

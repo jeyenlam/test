@@ -304,15 +304,15 @@ cells:
   aodb-outbound-lag-delta:
     dataRef: "aodb-outbound-lag-delta"
     label:
-    separator: "replace"
+      separator: "replace"
   aodb-recalculation-priority-lag-delta:
     dataRef: "aodb-recalculation-priority-lag-delta"
     label:
-    separator: "replace"
+      separator: "replace"
   querystream-dbmanager-lag-delta:
     dataRef: "querystream-dbmanager-lag-delta"
     label:
-    separator: "replace"
+      separator: "replace"
   aodb-outbox-lag-default:
     dataRef: "aodb-outbox-lag"
     label:
@@ -378,77 +378,77 @@ cells:
     label:
       separator: "replace"  
   masterdata-dbmanager-lag-delta:
-      dataRef: "masterdata-dbmanager-lag-delta"
-      label:
-        separator: "replace"  
+    dataRef: "masterdata-dbmanager-lag-delta"
+    label:
+      separator: "replace"  
   inbound-processors-rejected-lag-delta:
-      dataRef: "inbound-processors-rejected-lag-delta"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-processors-rejected-lag-delta"
+    label:
+      separator: "replace"  
   inbound-adapters-dbmanager-lag-delta:
-      dataRef: "inbound-adapters-dbmanager-lag-delta"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-adapters-dbmanager-lag-delta"
+    label:
+      separator: "replace"  
   masterdata-dbmanager-lag:
-      dataRef: "masterdata-dbmanager-lag"
-      label:
-        separator: "replace"  
+    dataRef: "masterdata-dbmanager-lag"
+    label:
+      separator: "replace"  
   inbound-adapters-dbmanager-lag:
-      dataRef: "inbound-adapters-dbmanager-lag"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-adapters-dbmanager-lag"
+    label:
+      separator: "replace"  
   aodb-recalculation-default-lag:
-      dataRef: "aodb-recalculation-default-lag"
-      label:
-        separator: "replace"  
+    dataRef: "aodb-recalculation-default-lag"
+    label:
+      separator: "replace"  
   querystream-dbmanager-lag:
-      dataRef: "querystream-dbmanager-lag"
-      label:
-        separator: "replace"  
+    dataRef: "querystream-dbmanager-lag"
+    label:
+      separator: "replace"  
   aodb-pipeline-lag:
-      dataRef: "aodb-pipeline-lag"
-      label:
-        separator: "replace"  
+    dataRef: "aodb-pipeline-lag"
+    label:
+      separator: "replace"  
   inbound-processor-lag:
-      dataRef: "inbound-processor-lag"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-processor-lag"
+    label:
+      separator: "replace"  
   aodb-outbound-lag:
-      dataRef: "aodb-outbound-lag"
-      label:
-        separator: "replace"  
+    dataRef: "aodb-outbound-lag"
+    label:
+      separator: "replace"  
   querystream-lag:
-      dataRef: "querystream-lag"
-      label:
-        separator: "replace"  
+    dataRef: "querystream-lag"
+    label:
+      separator: "replace"  
   inbound-processors-rejected:
-      dataRef: "inbound-processors-rejected"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-processors-rejected"
+    label:
+      separator: "replace"  
   inbound-processor-lag-delta:
-      dataRef: "inbound-processor-lag-delta"
-      label:
-        separator: "replace"  
+    dataRef: "inbound-processor-lag-delta"
+    label:
+      separator: "replace"  
   aodb-pipeline-lag-delta:
-      dataRef: "aodb-pipeline-lag-delta"
-      label:
-        separator: "replace" 
+    dataRef: "aodb-pipeline-lag-delta"
+    label:
+      separator: "replace" 
   querystream-lag-delta:
-      dataRef: "querystream-lag-delta"
-      label:
-        separator: "replace" 
+    dataRef: "querystream-lag-delta"
+    label:
+      separator: "replace" 
   aodb-recalculation-priority-lag:
-      dataRef: "aodb-recalculation-priority-lag"
-      label:
-        separator: "replace"
+    dataRef: "aodb-recalculation-priority-lag"
+    label:
+      separator: "replace"
   sessions:
     dataRef: "sessions"
     label:
-    separator: "replace"
+      separator: "replace"
   average-response-time:
-      dataRef: "average-response-time"
-      label:
-        separator: "replace"
+    dataRef: "average-response-time"
+    label:
+      separator: "replace"
 # ERROR RATE
   aodb-error-rate:
     dataRef: "aodb-error-rate"
@@ -465,88 +465,88 @@ cells:
   permissionmanager-error-rate1:
     dataRef: "permissionmanager-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   masterdata-error-rate:
     dataRef: "masterdata-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   userprofile-error-rate:
     dataRef: "userprofile-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   comparisonportal-error-rate:
     dataRef: "comparisonportal-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   testportal-error-rate:
     dataRef: "testportal-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   querystream-error-rate:
     dataRef: "querystream-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
   notification-error-rate:
     dataRef: "notification-error-rate"
     label:
-    separator: "replace"
+      separator: "replace"
 # CONSUMPTION
   aodb-pipeline-recalculation-ui-consumption:
-      dataRef: "aodb-pipeline-recalculation-ui-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-recalculation-ui-consumption"
+    label:
+      separator: "replace"
   querystream-consumption:
-      dataRef: "querystream-consumption"
-      label:
-        separator: "replace"
+    dataRef: "querystream-consumption"
+    label:
+      separator: "replace"
   aodb-outbound-consumption:
-      dataRef: "aodb-outbound-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-outbound-consumption"
+    label:
+      separator: "replace"
   aodb-datahub-consumption:
-      dataRef: "aodb-datahub-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-datahub-consumption"
+    label:
+      separator: "replace"
   inbound-processor-consumption:
-      dataRef: "inbound-processor-consumption"
-      label:
-        separator: "replace"
+    dataRef: "inbound-processor-consumption"
+    label:
+      separator: "replace"
   aodb-pipeline-ui-consumption:
-      dataRef: "aodb-pipeline-ui-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-ui-consumption"
+    label:
+      separator: "replace"
   aodb-pipeline-recalculation-priority-consumption: 
-      dataRef: "aodb-pipeline-recalculation-priority-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-recalculation-priority-consumption"
+    label:
+      separator: "replace"
   aodb-pipeline-priority-consumption:
-      dataRef: "aodb-pipeline-priority-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-priority-consumption"
+    label:
+      separator: "replace"
   inbound-processors-rejected-consumption:
-      dataRef: "inbound-processors-rejected-consumption"
-      label:
-        separator: "replace"
+    dataRef: "inbound-processors-rejected-consumption"
+    label:
+      separator: "replace"
   querystream-dbmanager-consumption:
-      dataRef: "querystream-dbmanager-consumption"
-      label:
-        separator: "replace"
+    dataRef: "querystream-dbmanager-consumption"
+    label:
+      separator: "replace"
   aodb-pipeline-recalculation-default-consumption:
-      dataRef: "aodb-pipeline-recalculation-default-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-recalculation-default-consumption"
+    label:
+      separator: "replace"
   masterdata-dbmanager-consumption:
-      dataRef: "masterdata-dbmanager-consumption"
-      label:
-        separator: "replace"
+    dataRef: "masterdata-dbmanager-consumption"
+    label:
+      separator: "replace"
   inbound-adapters-dbmanager-consumption:
-      dataRef: "inbound-adapters-dbmanager-consumption"
-      label:
-        separator: "replace"
+    dataRef: "inbound-adapters-dbmanager-consumption"
+    label:
+      separator: "replace"
   aodb-pipeline-default-consumption:
-      dataRef: "aodb-pipeline-default-consumption"
-      label:
-        separator: "replace"
+    dataRef: "aodb-pipeline-default-consumption"
+    label:
+      separator: "replace"
 # REQ-SEC
   aodb-req-sec:
     dataRef: "aodb-req-sec"

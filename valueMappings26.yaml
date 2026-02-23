@@ -5,132 +5,154 @@ cells:
     dataRef: "userprofile-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   outbound-adapters-status:
     dataRef: "outbound-adapters-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   inbound-adapters-status:
     dataRef: "inbound-adapters-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   inbound-processors-status:
     dataRef: "inbound-processors-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   comparison-portal-status:
     dataRef: "comparison-portal-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   testportal-status:
     dataRef: "testportal-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   datahub-status:
     dataRef: "datahub-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   masterdata-status:
     dataRef: "masterdata-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   identity-provider-status:
     dataRef: "identity-provider-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   permission-manager-status:
     dataRef: "permission-manager-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   querystream-dbmanager-status:
     dataRef: "querystream-dbmanager-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   querystream-status:
     dataRef: "querystream-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-pipeline-ui-status:
     dataRef: "aodb-pipeline-ui-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-pipeline-priority-status:
     dataRef: "aodb-pipeline-priority-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-pipeline-default-status:
     dataRef: "aodb-pipeline-default-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-pipeline-matching-status:
     dataRef: "aodb-pipeline-matching-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-api-status:
     dataRef: "aodb-api-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-pipeline-status:
     dataRef: "aodb-pipeline-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-outbox-status-ui:
     dataRef: "aodb-outbox-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-outbox-status-priority:
     dataRef: "aodb-outbox-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-outbox-status-pipeline-matching:
     dataRef: "aodb-outbox-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
   aodb-outbox-status-api:
     dataRef: "aodb-outbox-status"
     fillColor:
       thresholds:
+        - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
 # REPLICAS
@@ -440,7 +462,7 @@ cells:
     dataRef: "idp-error-rate"
     label:
     separator: "replace"
-  permissionmanager-error-rate:
+  permissionmanager-error-rate1:
     dataRef: "permissionmanager-error-rate"
     label:
     separator: "replace"
@@ -469,6 +491,10 @@ cells:
     label:
     separator: "replace"
 # CONSUMPTION
+  aodb-pipeline-recalculation-ui-consumption:
+      dataRef: "aodb-pipeline-recalculation-ui-consumption"
+      label:
+        separator: "replace"
   querystream-consumption:
       dataRef: "querystream-consumption"
       label:
@@ -562,8 +588,4 @@ cells:
     dataRef: "masterdata-req-sec"
     label:
       separator: "replace"
-
-
-
-
 

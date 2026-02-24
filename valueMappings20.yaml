@@ -659,4 +659,3 @@ cells:
     dataRef: "environment-request-per-sec"
     label:
       separator: "replace"
-

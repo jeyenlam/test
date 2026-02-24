@@ -222,11 +222,11 @@ cells:
   aodb-pipeline-running-replicas:
     dataRef: "aodb-pipeline-running-replicas"
     label:
-    separator: "replace"
+      separator: "replace"
   aodb-pipeline-desired-replicas:
     dataRef: "aodb-pipeline-desired-replicas"
     label:
-    separator: "replace"
+      separator: "replace"
   userprofile-running-replicas:
     dataRef: "userprofile-running-replicas"
     label:

@@ -204,6 +204,13 @@ cells:
         - { level: -1, color: "gray" }
         - { level: 0, color: "red" }
         - { level: 1, color: "green" }
+  aodb-outbox-status-default:
+    dataRef: "aodb-outbox-status"
+    fillColor:
+      thresholds:
+        - { level: -1, color: "gray" }
+        - { level: 0, color: "red" }
+        - { level: 1, color: "green" }
   aodb-outbox-status-pipeline-matching:
     dataRef: "aodb-outbox-status"
     fillColor:
